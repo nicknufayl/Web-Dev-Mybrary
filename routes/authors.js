@@ -4,7 +4,7 @@ const router = express.Router()
 
 // All Authors Route
 router.get('/', (req, res) => {
-    res.render('index')
+    res.render('authors/index')
 })
 
 // New Author Route
