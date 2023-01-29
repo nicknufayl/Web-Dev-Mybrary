@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 })
 
 // New Author Route
-route.get('/new', (req, res) => {
+router.get('/new', (req, res) => {
     res.render('authors/new')
 })
 
